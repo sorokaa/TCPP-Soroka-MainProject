@@ -93,6 +93,10 @@ class List<E> {
 		sb.append("]");
 		return sb.toString();
 	}
+	@Override
+	public int hashCode() {
+		return 1;
+	}
 }
 
 
