@@ -80,6 +80,11 @@ class List<E> {
 			return next;
 		}
 	}
+	
+	@Override
+	public boolean equals(List<E> list) {
+		return false;
+	}
 
 	@Override
 	public String toString() {
