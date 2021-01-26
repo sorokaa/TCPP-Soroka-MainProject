@@ -1,4 +1,3 @@
-в
 class List<E> {
 
 	private Node<E> head;
@@ -7,7 +6,7 @@ class List<E> {
 	public List() {}
 	public List(E[] array) {
 		for(E element : array) {
-			add(E);
+			add(element);
 		}
 	}
 
@@ -108,6 +107,9 @@ public class LinkedList {
 
 		System.out.println(list1);
 		System.out.println(list2);
+
+		list1.reverseList();
+		System.out.println(list1);	
 
 	}
 }
